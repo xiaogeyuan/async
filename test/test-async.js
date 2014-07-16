@@ -102,7 +102,7 @@ exports['applyEach'] = function (test) {
         }, 50);
     };
     var three = function (val, cb) {
-        test.equal(val, 5);
+        test.equal(val, 9999);
         setTimeout(function () {
             call_order.push('three');
             cb(null, 3);
